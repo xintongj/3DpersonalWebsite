@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -38,5 +38,5 @@
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1"
   },
-  "homepage": "https://xintongj.github.io/"
+  "homepage": "https://xintongj.github.io/3DpersonalWebsite/"
 }
